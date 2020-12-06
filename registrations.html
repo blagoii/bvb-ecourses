@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BVB-КУРСОВЕ-РЕГИСТРАЦИЯ</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/UHD.css">
+  <link rel="stylesheet" href="/css/style.css" media="(max-width:1920px)" />
+  <link rel="stylesheet" href="/css/tablet.css" media="(max-width:1024px)" />
+  <link rel="stylesheet" href="/css/mobile.css" media="(max-width:500px)" />
+
+</head>
+<body>
+  <header id="headerbvbnav"> 
+      <nav role="navigation" id="row">
+      <a href="index.html" id="aimgbvb"><img src="/img/scripslogo.png" id="imgbvb"/></a>
+       <div id="menuToggle">
+         <input type="checkbox" />
+         <span id="menubvb"></span>
+         <span id="menubvb"></span>
+         <span id="menubvb"></span>
+         <ul id="menu">
+           <li class="libvb"><a class="color1a" href="index.html">За нас</a> </li>
+                 <li class="libvb"><a class="color1a" href="index.html#kurs">Избери курс</a> </li>
+                 <li class="libvb"><a class="color1a" href="login.html">Вход</a> </li>
+                 <li class="libvb"><a class="color1a" href="registrations.html">Регистрация</a> </li>
+                 <li class="libvb"><a class="color1a" href="contacts.html">Kонтакти</a> </li>
+         </ul>
+       </div>
+     </nav>
+     </header>
+     <section>
+      <div id="bgbvb">
+        <fieldset>
+          <legend id="formbvblogin">РЕГИСТРАЦИЯ НА ПОТРЕБИТЕЛ</legend>
+            <form id="login" method="POST" action="">
+              <input type="text" name="username" id="username" placeholder="username" required><label for="username">Потрбителско име</label><br>
+              <input type="password" id="pswrd" placeholder="Password"><label for="password"><i class="fa fa-eye" onclick="show()"></i> Парола</label>
+              <br>
+              <input type="password" placeholder="Confirm Password" id="confirm_password" required><label for="password1"><i class="fa fa-eye" onclick="show1()"></i>Повтори Паролата</label>
+              <br>
+              <input type="email" placeholder="Email"><label for="email"><i class="fa fa-envelope-o"></i>Въведете имейл</label>
+              <br>
+              <input type="checkbox" name="uslovia" value="uslovia" id="uslovia"><label for="uslovia">Условия и правила за употреба на сайта BVB</label><br>
+              <input type="checkbox" name="poveritelnost" value="poveritelnost" id="poveritelnost"><label for="poveritelnost">Условия за поверителност на личните данни в сайта BVB</label><br>
+              <input type="submit" value="Регистрирай се"> 
+              
+            </form>
+        </fieldset>
+      </div>
+      
+    </section>
+
+    <script src="/js/script.js"></script>
+    </body>
+    </html>
